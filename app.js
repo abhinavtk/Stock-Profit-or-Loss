@@ -1,4 +1,4 @@
-const inputPrice = document.querySelector("#initial-price");
+const initialPrice = document.querySelector("#initial-price");
 const numberOfStocks = document.querySelector("#stocks-quantity");
 const currentPrice = document.querySelector("#current-price");
 const submitBtn = document.querySelector("#submit-btn");
@@ -24,7 +24,7 @@ function calculateProfitOrLoss(initial, quantity, current){
 }
 
 function submitHandler(){
-    var initial = inputPrice.value;
+    var initial = initialPrice.value;
     var quantity = numberOfStocks.value;
     var current = currentPrice.value;
     var validate = validateInput(initial, quantity, current);
