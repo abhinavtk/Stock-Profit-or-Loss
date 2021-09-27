@@ -10,7 +10,6 @@ body{
     color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin:0;
     text-align: center;
 }
 
@@ -38,7 +37,7 @@ button {
     background-color: var(--violet-color);
     color: var(--primary-color);
     padding: .5rem;
-    border: 1pxs solid #1E40AF;
+    border: 1px solid #1E40AF;
     border-radius: .25rem;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
